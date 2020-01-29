@@ -11,15 +11,20 @@
         <!-- Bulma Version 0.8.x-->
         <link rel="stylesheet" href="css/bulma.min.css" />
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="../css/login.css">
     </head>
 
-    <body style="overflow: hidden">
+    <body>
+        <style type="text/css">
+            html {
+                overflow: hidden;
+            }
+        </style>
         <section class="hero is-success is-fullheight login-background">
+            <a href="index.html" class="subtitle">Home</a>
             <div class="hero-body">
                 <div class="container has-text-centered">
                     <div class="column is-4 is-offset-4">
-                        <div class="box">
+                        <div class="box" style="color: #E34D76">
                             <figure class="avatar">
                                 <img src="https://placehold.it/128x128">
                             </figure>
@@ -41,13 +46,13 @@
                       Remember me
                     </label>
                                 </div>
-                                <button class="button is-block is-info is-large is-fullwidth">Login <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+                                <button class="button is-block is-info is-large is-fullwidth" style="background-color: #511026">Login <i class="fa fa-sign-in" aria-hidden="true"></i></button>
                             </form>
                         </div>
                         <p class="has-text-grey">
-                            <a href="../">Sign Up</a> &nbsp;·&nbsp;
-                            <a href="../">Forgot Password</a> &nbsp;·&nbsp;
-                            <a href="../">Need Help?</a>
+                            <a href="../" style="color: white">Sign Up</a> &nbsp;·&nbsp;
+                            <a href="../" style="color: white">Forgot Password</a> &nbsp;·&nbsp;
+                            <a href="../" style="color: white">Need Help?</a>
                         </p>
                     </div>
                 </div>
@@ -55,5 +60,4 @@
         </section>
         <script async type="text/javascript" src="../js/bulma.js"></script>
     </body>
-
 </html>
