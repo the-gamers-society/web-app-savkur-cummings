@@ -9,18 +9,46 @@
         <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
         <!-- Bulma Version 0.8.x-->
-        <link rel="stylesheet" href="css/bulma.min.css" />
+        <link rel="stylesheet" href="css/bulma.css" />
         <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
-        <nav class="topnav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">About Us</a></li>
-                <li><a href="login.html">Log In</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a class="navbar-item" href="../">
+                                <img src="http://bulma.io/images/bulma-type-white.png" alt="Logo">
+                            </a>
+                            <span class="navbar-burger burger" data-target="navbarMenu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </div>
+                        <div id="navbarMenu" class="navbar-menu">
+                            <div class="navbar-end">
+                                <div class="tabs is-right">
+                                    <ul>
+                                        <li href="index.html"><a>Home</a></li>
+                                        <li><a href="">About Us</a></li>
+                                        <li><a href="login.html">Log In</a></li>
+                                        <li><a class="is-active">Sign Up</a></li>
+                                        <li><a href="">Help</a></li>
+                                    </ul>
+                                    <span class="navbar-item">
+                                        <a class="button is-white is-outlined" href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/hero.html">
+                                            <span class="icon">
+                                                <i class="fa fa-github"></i>
+                                            </span>
+                                            <span title="Hello from the other side">View Source</span>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
         <section class="hero is-success is-fullheight login-background">
             <div class="hero-body">
                 <div class="container has-text-centered">
@@ -41,13 +69,10 @@
                                 
                                 <div class="field">
                                     <div class="control">
-                                        <input class="input is-large" type="username" placeholder="Username" autofocus="">
-                                    </div>
-                                </div>
-                                
-                                <div class="field">
-                                    <div class="control">
                                         <input class="input is-large" type="email" placeholder="Email" autofocus="">
+                                    </div>
+                                    <div class="control">
+                                        <input class="input is-large" type="username" placeholder="Username" autofocus="">
                                     </div>
                                 </div>
 
@@ -55,8 +80,6 @@
                                     <div class="control">
                                         <input class="input is-large" type="password" placeholder="Password">
                                     </div>
-                                </div>
-                                <div class="field">
                                     <div class="control">
                                         <input class="input is-large" type="password" placeholder="Confirm Password">
                                     </div>
