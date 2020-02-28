@@ -1,6 +1,6 @@
 .login-background { 
   /* The image used */
-  background-image: url("/img/2013_metal_gear_rising_revengeance-1920x1080.jpg");
+  background-image: url(/img/backgroundpic.jpg)
 
   /* Full height */
   height: 100%; 
